@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #444;
+}
+/* rgba(red, green, yellow, 0.5), */
+body {
+    margin: 0;
+    /* background-image:linear-gradient(blue,red); */
+    background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-red-and-blue-glowing-smoke-background-picture-image_1219688.jpg");
+    font-size: 20px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.madhav{
+    /* width: 500px; */
+    width: min-content;
+    margin: 50px  auto;
+    /* margin-bottom: 0px; */
+    /* border: 5px solid red;    */
+    overflow: hidden;
+    
+}
+
+.img{
+    /* border:1px solid green; */
+    transform: scale(1.07);
+    height:250px;
+    
+}
+
+.container-calendar {
+    color: #ffffff;
+    padding: 20px;
+    width: 500px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: 5px solid green; */
+    box-shadow: 20px 0px 50px black
+
+
+}
+
+.button-container-calendar button {
+    cursor: pointer;
+    font-size: 20px;
+    background: #00a2b7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+#left{
+    margin-right: 10px;
+    transition: 0.5s;
+}
+#right{
+margin-left: 10px;    
+}
+
+.table-calendar {
+    width: 100%;
+}
+
+
+.table-calendar td, .table-calendar th {
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    /* vertical-align: top; */
+}
+
+.today_date.selected {
+    font-weight: bold;
+    background-color: #00a2b7;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/* sunday */
+.today_date:nth-child(1) {
+  color: red;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button-container-calendar {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 10px;
+    /* border: 1px solid red; */
+
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+select{
+    font-size: 18px;
+    background-color:#00a2b7 ;
+    color: #fff ;
+    margin-left: 10px;
+}
+option{
+    background-color: black;
+    color: blue;
+}

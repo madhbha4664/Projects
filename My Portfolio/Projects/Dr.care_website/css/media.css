@@ -1,0 +1,334 @@
+@media(max-width:500px) {
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .sub_topbar {
+        display: none;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+        background-color: black;
+    }
+
+    .bars_icon {
+        display: block;
+        color: #6c757d;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #bar_icon {
+        margin-right: 10px;
+    }
+
+    .navs_li {
+        display: none;
+    }
+
+    .slider_main {
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        height: 450px;
+    }
+
+    .slider_heading {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider_sub_heading {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .slider_text {
+        width: 450px;
+        text-align: center;
+    }
+
+    .view_our_works_box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service_main_boxs {
+        padding: 0px 20px;
+    }
+
+    .service_main_boxs {
+        top: 0;
+    }
+
+    .service_main_box {
+        width: 100%;
+    }
+
+    .about_main {
+        margin-top: 1350px;
+        padding: 0px 20px;
+        display: block;
+        background-size: cover;
+    }
+
+    .about_main_left {
+        height: 400px;
+        width: 100%;
+    }
+
+    .about_main_right {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .about_text {
+        margin-top: 50px;
+    }
+
+    .about_submain_box_text {
+        width: 90%;
+    }
+
+    .consultation_main {
+        display: block;
+        height: 380px;
+        background-attachment: unset;
+        padding: 50px 20px;
+        margin-top: 100px;
+    }
+
+    .consultation_main_left {
+        display: block;
+    }
+
+    .consultation_main_left_heading {
+        line-height: 50px;
+        font-size: 35px;
+    }
+
+    .consultation_main_left_intro {
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .consultation_main_right {
+        display: block;
+        padding: 0;
+    }
+
+    .free_consultation_btn {
+        margin-top: 20px;
+    }
+
+    .department_intro_text {
+        padding: 0px 10px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .department_main {
+        padding: 0px;
+    }
+
+    .department_main_all_category {
+        display: block;
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+
+    .department_category {
+        width: 100%;
+        padding: 25px;
+        margin-top: 7px;
+        font-size: 18px;
+    }
+
+    .neurological_deparment {
+        display: block;
+        padding: 30px 30px;
+    }
+
+    .neurological_deparment_left {
+        width: 100%;
+    }
+
+    .neurological_deparment_right {
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+
+    .neurological_submain_box_text {
+        width: 80%;
+    }
+
+    .doctor_box {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .doctors_intro_text {
+        padding: 0px 10px;
+        font-size: 18px;
+    }
+
+    .testimonials_heading {
+        font-size: 27px;
+    }
+
+    .testimonials_intro_text {
+        padding: 0px 10px;
+        font-size: 18px;
+    }
+
+    .client_intro {
+        width: 75%;
+        padding: 0px 20px;
+        justify-content: space-between;
+    }
+
+    .client_intro_text {
+        width: 100%;
+    }
+
+    .free_Consultation_main {
+        display: block;
+    }
+
+    .free_Consultation_left {
+        width: 100%;
+        padding: 50px 10px;
+        padding-bottom: 15 px;
+    }
+
+    .free_Consultation_form_input {
+        width: 100%;
+    }
+
+    .free_Consultation_right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .free_Consultation_subright {
+        width: 80%;
+        height: 30%;
+        margin-top: 40px;
+    }
+
+    .pricing_intro_text {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+
+    .price_box_main {
+        padding: 0px 10px;
+    }
+
+    .price_subbox {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .price_subbox_offer_btn {
+        left: 160px;
+    }
+
+    .blog_intro_text {
+        padding: 0px 10px;
+        font-size: 18px;
+    }
+
+    .blog_box {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer_div {
+        display: block;
+    }
+
+    .footer_left {
+        width: 100%;
+        display: block;
+    }
+
+    footer {
+        padding: 100px 20px;
+    }
+
+    .footer_intro {
+        width: 100%;
+
+    }
+
+    .footer_intro_text {
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    .footer_links {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px;
+    }
+
+    .have_a_que {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer_Service {
+        margin-top: 50px;
+        display: block;
+        padding: 0px;
+    }
+
+    .footer_right {
+        display: block;
+        margin-top: 50px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .footer_right1 {
+        width: 100%;
+    }
+
+    .footer_right2 {
+        width: 100%;
+    }
+
+    .recent_blog_box_text {
+        width: 100%;
+    }
+
+    .recent_blog_datebox {
+        margin-left: 22px;
+        justify-content: left;
+
+    }
+
+    .footer_right2 {
+        margin-top: 50px;
+    }
+
+    .footer_email2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_email2_submit {
+        width: 100%;
+    }
+}

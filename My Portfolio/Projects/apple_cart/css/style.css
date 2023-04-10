@@ -1,0 +1,345 @@
+body {
+    background-color: rgb(15, 221, 77);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ...RIGHT-PART... */
+
+.main {
+    height: 500px;
+    width: 600px;
+    position: relative;
+    margin: 150px auto;
+    background-color: white;
+}
+.left {
+    width: 280px;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.background {
+    height: 370px;
+    background-color: rgb(164, 214, 65);
+    position: relative;
+}
+
+.background .apple {
+    height: 100%;
+    width: 105%;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 00px;
+    transition: 2s;
+}
+
+.apple:hover {
+    left: -50px;
+}
+
+
+#icon1 {
+
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+#icon1:hover {
+
+    color: blue;
+}
+
+#icon2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 31px;
+    color: white;
+    transition: 0.5s;
+}
+
+#icon2:hover {
+    color: red;
+}
+
+.subimg {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+
+}
+
+.subimg1 {
+
+    height: 50px;
+    width: 50px;
+    border: 1px gray solid;
+    padding: auto;
+
+    align-items: center;
+}
+
+.subimg1 .apl1 {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.subimg2 {
+    height: 50px;
+    width: 50px;
+    border: 1px gray solid;
+    align-items: center;
+    margin-left: 10px;
+
+
+}
+
+.subimg2 .apl2 {
+
+    height: 100%;
+    width: 100%;
+    margin-top: -3px;
+
+}
+
+
+.subimg3 {
+    height: 50px;
+    width: 50px;
+    border: 1px gray solid;
+    margin-left: 10px;
+
+}
+
+.subimg3 .apl3 {
+
+
+    height: 150%;
+    width: 150%;
+    margin-top: -12px;
+    margin-left: -10px;
+
+
+}
+
+.subimg4 {
+    height: 50px;
+    width: 50px;
+    border: 1px gray solid;
+    margin-left: 10px;
+
+
+}
+
+.subimg4 .apl4 {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+/* ...LEFT-PART... */
+
+
+.right {
+
+    width: 350px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+
+}
+
+.heading {
+   
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.heading:hover{
+
+    color: green;
+
+
+}
+
+.cod {
+    color: silver;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing: 2px;
+}
+
+.price {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.one {
+    font-size: 25px;
+    color: red;
+    margin-top: 33px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.one:hover {
+
+    color: green;
+}
+
+
+.two {
+
+    margin-left: 20px;
+    font-size: 60px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.two:hover {
+
+    color: green;
+}
+
+.text1 {
+    color: silver;
+    font-size: 13px;
+    margin-top: 30px;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.aplcolours {
+
+
+    display: flex;
+    margin-top: 7px;
+
+
+}
+
+.colour1 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid silver;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.green {
+    height: 110%;
+    width: 110%;
+    margin-top: -2px;
+
+}
+
+.colour2 {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.orange {
+    height: 100%;
+    width: 100%;
+}
+
+.colour3 {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.lightred {
+    height: 130%;
+    width: 140%;
+    margin-top: -7px;
+    margin-left: -8px;
+}
+
+.colour4 {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.darkred {
+    height: 100%;
+    width: 100%;
+    margin-top: -4px;
+}
+
+.text2 {
+
+
+    margin-top: 30px;
+    color: silver;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.benifits {
+
+    margin-left: 15px;
+    margin-top: 5px;
+
+}
+
+.btn {
+
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn::after {
+
+    content: "";
+    height: 150px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    bottom: -160px;
+    left: -50px;
+    transition: 1s;
+    z-index: -1;
+}
+
+.btn:hover::after {
+    bottom: -25px;
+}
